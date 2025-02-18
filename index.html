@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        window.onload = function() {
+            var urls = [
+                "https://docs.google.com/forms/d/e/1FAIpQLSdNqiwqmvoOUz1yKICqF_ppbouDfw7-SGMlBTjXc7TQeT6qvA/viewform?usp=header",
+                "https://docs.google.com/forms/d/e/1FAIpQLScnQ9cp2uqY_CtMCrNnkdpiazy9jkv8Jaceeri8vA1rYOEv8Q/viewform?usp=header",
+                "https://docs.google.com/forms/d/e/1FAIpQLScLxQZFg2HuU42g2zyT5wr3K5bYNIBvzkgPaji8NAPEi5SuFw/viewform?usp=header"
+            ];
+            var randomIndex = Math.floor(Math.random() * urls.length);
+            window.location.href = urls[randomIndex];
+        }
+    </script>
+</head>
+<body>
+    <p>Redirigiendo al examen...</p>
+</body>
+</html>
